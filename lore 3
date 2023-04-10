@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Receita de Bolo</title>
+	<style>
+		body {
+			text-align: center;
+            background-image: url("img/bolinho.avif");
+			color: #ff009d;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		}
+		
+		h1 {
+			font-family: "Times New Roman", serif;
+			font-size: 36px;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+		
+		.ingredients {
+			margin-top: 30px;
+			margin-bottom: 30px;
+			background-color: #FFFFFF;
+			padding: 20px;
+			text-align: left;
+			font-family: "Lucida Console", monospace;
+			font-size: 18px;
+		}
+		
+		.ingredients h2 {
+			font-size: 24px;
+			margin-top: 0;
+			margin-bottom: 20px;
+			font-family: Arial, sans-serif;
+		}
+		
+		.ingredients ul {
+			margin-left: 20px;
+			padding-left: 0;
+			list-style-type: none;
+		}
+		
+		.ingredients li {
+			position: relative;
+			padding-left: 30px;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		
+		.ingredients li:before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 7px;
+			width: 10px;
+			height: 1px;
+			background-color: #e4b9d7;
+		}
+		
+		.ingredients li.optional {
+			color: #3377FF;
+            .ingredients li.required {
+                color: #00CC00;
+            }
+            
+            .instructions {
+                background-color: #cc00ff;
+                padding: 20px;
+                text-align: left;
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+            }
+            
+            .instructions h2 {
+                font-size: 24px;
+                margin-top: 0;
+                margin-bottom: 20px;
+                font-family: "Lucida Console", monospace;
+                color: white;
+            }
+            
+            .instructions p {
+                margin-bottom: 10px;
+                font-weight: bold;
+                font-style: italic;
+            }
+            
+            .time {
+                font-style: italic;
+                margin-bottom: 30px;
+            }
+            
+            .footer {
+                background-color: #000000;
+                color: #e4a3be;
+                padding: 10px;
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bolo de Chocolate</h1> 
+        <div class="ingredients">
+            <h2>Ingredientes</h2>
+            <ul>
+                <li class="required">3 xícaras de farinha de trigo</li>
+                <li class="required">2 xícaras de açúcar</li>
+                <li class="required">1 xícara de óleo</li>
+                <li class="required"><del>4 ovos</del> </li>
+                <li class="optional">1 colher de sopa de fermento em pó</li>
+                <li class="optional">1 xícara de chocolate em pó</li>
+                <li class="optional">1 xícara de leite</li>
+            </ul>
+        </div>
+        
+        <div class="instructions">
+            <h2>Modo de Preparo</h2>
+            <p>Pré-aqueça o forno a 180 graus Celsius.</p>
+            <p>Em uma tigela grande, misture a farinha, o açúcar e o óleo.</p>
+            <p>Se estiver usando ovos, adicione-os e misture bem.</p>
+            <p>Adicione o fermento em pó e misture delicadamente.</p>
+            <p>Transfira a massa para uma forma untada e enfarinhada.</p>
+            <p>Asse por cerca de 45 minutos ou até que um palito inserido no centro do bolo saia limpo.</p>
+            <p>Deixe esfriar antes de servir.</p>
+            <p>Azul é opcional e rosa obrigatorio</p>
+        </div>
+        
+        <div class="time">
+            Tempo de Preparo: 60 minutos
+        </div>
+        
+        <div class="footer">
+            <p>© 2023 Todos os direitos reservados. Desenvolvido por ReceitasDeliciosas.com</p>
+        </div>
+    </body>
+    </html>
+	
