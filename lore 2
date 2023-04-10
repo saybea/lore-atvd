@@ -1,47 +1,82 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Receita de Bolo</title>
-    <style>
-      p:nth-of-type(1) {
-        font-family: Courier;
-        font-size: larger;
-        font-style: normal;
-        font-weight: 800;
-      }
-
-      p:nth-of-type(2) {
-        font-family: Verdana;
-        font-size: small;
-        font-style: italic;
-        font-weight: 200;
-      }
-
-      p:nth-of-type(3) {
-        font-family: monospace;
-        font-size: normal;
-        font-style: oblique;
-        font-weight: 500;
-      }
-
-      p:nth-of-type(4) {
-        font-family: Fantasy;
-        font-size: x-small;
-        font-style: normal;
-        font-weight: 400;
-      }
-    </style>
+    <title>Receita de bolo</title>
   </head>
   <body>
-    <h1>Receita de Bolo</h1>
-
-    <p>Coloque os ingredients no recipiente.</p>
-
-    <p>Misture eles.</p>
-
-    <p>Coloque na forma.</p>
-
-    <p>E é só servir.</p>
-
+    <style>
+        body {
+            text-align: center;
+            background-color: #ff9800;
+          color: #333; /* Define a cor do texto padrão */
+          font-family: Arial, sans-serif; /* Define a fonte padrão */
+          font-size: 16px; /* Define o tamanho padrão da fonte */
+          line-height: 1.5; /* Define o espaçamento entre as linhas */
+          margin: 60; /* Remove as margens padrão */
+          padding: 40; /* Remove o preenchimento padrão */
+        }
+  
+        p {
+          margin-bottom: 20px; /* Adiciona uma margem inferior para separar os parágrafos */
+        }
+  
+        /* Define o estilo do primeiro parágrafo */
+        .p1 {
+            text-align: center;
+            background-color: beige;
+          font-family: Courier, monospace;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 800;
+          color: #ff9800; /* Define a cor do texto */
+        }
+  
+        /* Define o estilo do segundo parágrafo */
+        .p2 {
+            text-align: center;
+            background-color: beige;
+          font-family: Verdana, sans-serif;
+          font-size: 14px;
+          font-style: italic;
+          font-weight: 200;
+          color: #2196f3; /* Define a cor do texto */
+        }
+  
+        /* Define o estilo do terceiro parágrafo */
+        .p3 {
+            text-align: center;
+            background-color: beige;
+          font-family: "Lucida Console",monospace;
+          font-size: 16px;
+          font-style: oblique;
+          font-weight: 500;
+          color: #4caf50; /* Define a cor do texto */
+          }
+            /* Define o estilo do quarto parágrafo */
+  .p4 {
+    text-align: center;
+    background-color: beige;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    color: #e91e63; /* Define a cor do texto */
+  }
+</style>
+</head>
+<body>
+    <p class="p1">Bolo de Milho Verde da Vovó.</p>
+    <p class="p2"><br>ingredientes</br> 
+        <br>6 espigas de milho</br> 
+        <br> 5 ovos,1 xícara de leite</br> 
+        <br>1 e ½ xícara de açúcar</br> 
+        <br> ½ xícara de manteiga ou margarina</br> 
+        <br>1 xícara de farinha de trigo</br> 
+        <br>1 colher de sopa de fermento em pó</br> .</p>
+    <p class="p3"><br>Retire os grãos de milho da espiga com ajuda de uma faca, coloque no copo do liquidificador juntamente com os ovos, leite, manteiga e açúcar.</br>
+        <br> Bata bem até não ver mais pedaços grandes do milho.</br>
+        <br> Acrescente a farinha e bata por mais 1 minuto, depois coloque o fermento e bata por 3 segundos.</br>
+        <br>Despeje essa mistura em uma assadeira untada e enfarinhada e leve ao forno já pré-aquecido em 180° por cerca de 35 minutos, até que fique bem dourado..</br></p>
+    <p class="p4">Se desejar pode adicionar um pouco de coco ralado ou queijo ralado na mistura da massa, e é só servir e se deliciar.</p>
   </body>
 </html>
