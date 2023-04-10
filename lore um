@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha Página</title>
+	<style>
+		.paragrafo1 {
+			font-family: Arial;
+			font-size: 30px;
+		}
+		.paragrafo2 {
+			font-family: Verdana;
+			font-size: large;
+		}
+		.paragrafo3 {
+			font-family: Times New Roman;
+			font-size: medium;
+		}
+		.paragrafo4 {
+			font-family: Helvetica;
+			font-size: small;
+		}
+		.paragrafo5 {
+			font-family: Georgia;
+			font-size: x-small;
+		}
+		.paragrafo6 {
+			font-family: Comic Sans MS;
+			font-size: xx-small;
+		}
+	</style>
+</head>
+<body>
+	<p class="paragrafo1">Este é o primeiro parágrafo Lorezinha.</p>
+	<p class="paragrafo2">Este é o segundo parágrafo Lorezinha.</p>
+	<p class="paragrafo3">Este é o terceiro parágrafo Lorezinha.</p>
+	<p class="paragrafo4">Este é o quarto parágrafo Lorezinha.</p>
+	<p class="paragrafo5">Este é o quinto parágrafo Lorezinha.</p>
+	<p class="paragrafo6">Este é o sexto parágrafo Lorezinha.</p>
+</body>
+</html>
