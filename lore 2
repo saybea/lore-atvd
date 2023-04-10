@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Receita de Bolo</title>
+    <style>
+      p:nth-of-type(1) {
+        font-family: Courier;
+        font-size: larger;
+        font-style: normal;
+        font-weight: 800;
+      }
+
+      p:nth-of-type(2) {
+        font-family: Verdana;
+        font-size: small;
+        font-style: italic;
+        font-weight: 200;
+      }
+
+      p:nth-of-type(3) {
+        font-family: monospace;
+        font-size: normal;
+        font-style: oblique;
+        font-weight: 500;
+      }
+
+      p:nth-of-type(4) {
+        font-family: Fantasy;
+        font-size: x-small;
+        font-style: normal;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Receita de Bolo</h1>
+
+    <p>Coloque os ingredients no recipiente.</p>
+
+    <p>Misture eles.</p>
+
+    <p>Coloque na forma.</p>
+
+    <p>E é só servir.</p>
+
+  </body>
+</html>
